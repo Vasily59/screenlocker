@@ -1,10 +1,14 @@
-# screenlocker
+# Screenlocker
 Lock the screen making a screenshot of your current desktop and blurring the entire image
+
+# Install dependencies
+ ~ paru -S betterlockscreen  
+ ~ sudo pacman -S scrot  
 
 # 1.Create a command at /bin/ called "lock" (so the path to the command should be /bin/lock)  
  
- *cd /bin  
- *sudo nvim lock  
+ ~ cd /bin  
+ ~ sudo nano lock  
    
 # 2.Paste this to the file 
 
